@@ -10,7 +10,7 @@
     </mj-section>
     <mj-section>
       <mj-column width="80%">
-          <mj-text padding="10px" font-size="19px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="#006098" font-weight="bold">
+          <mj-text padding="10px" font-size="19px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="#006098">
             Thank you for signing up for our Medicare Advantage Seminar. You have RSVP'd for the following Seminar:
           </mj-text>
       </mj-column>
@@ -18,13 +18,13 @@
     <mj-section>
       <mj-column width="90%">
           <mj-text padding="5px" font-size="19px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="#006098" font-weight="bold">
-            Date: &lt;{{ Date }}&gt;
+            Date: {{ Date }}
           </mj-text>
           <mj-text padding="5px" font-size="19px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="#006098" font-weight="bold">
-            Time: &lt;{{ Time }}&gt;
+            Time: {{ Time }}
           </mj-text>
           <mj-text padding="5px" font-size="19px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="#006098" font-weight="bold">
-            Location: &lt;<a style="color: #006098" href="https://www.google.com/maps/search/?api=1&query={{ location }} {{ Where }}, {{ city }}, FL">{{ location }} {{ Where }}, {{ city }}, FL</a>&gt;
+            Location: <a style="color: #006098" href="https://www.google.com/maps/search/?api=1&query={{ location }} {{ Where }}, {{ city }}, FL">{{ location }} {{ Where }}, {{ city }}, FL</a>
           </mj-text>
       </mj-column>
     </mj-section>
@@ -33,7 +33,7 @@
           <mj-text padding="0" font-size="18px" font-weight="700" letter-spacing="1px" line-height="1.75" align="center" font-family="Arial, serif" color="#81C342">
             For any questions or concerns before your seminar, Please call <a href="tel:1.855.882.6467" style="color: #81C342; text-decoration: none">1-855-882-6467</a> <br> TDD/TTY relay, <a href="tel:1.800.955.8771" style="color: #81C342; text-decoration: none">1-800-955-8771</a>
           </mj-text>
-          <mj-text padding-top="60px" font-size="12px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="black" font-style="italic">
+          <mj-text padding-top="60px" font-size="12px" letter-spacing="0.5px" line-height="1.75" align="center" font-family="Arial, serif" color="black">
             AdventHealth Advantage Plans is administered by Health First Health Plans. Health First Health Plans is an HMO plan with a Medicare contract. Enrollment in Health First Health Plans depends on contract renewal.
           </mj-text>
       </mj-column>
